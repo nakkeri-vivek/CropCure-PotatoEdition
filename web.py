@@ -8,7 +8,9 @@ def model_prediction(test_image) :
     input_arr = tp.keras.preprocessing.image.img_to_array(image)
     input_arr = np.array([input_arr])
     predictions = model.predict(input_arr)
-    return np.argmax(predictions)
+    predicted_index = np.argmax(predictions)  
+    confidence = predictions[0][predicted_index]
+    return predicted_index, confidence
 st.sidebar.title("Plant disease System for sustainable Agriculture : ")
 app_mode  = st.sidebar.selectbox('select page', ['Home', 'Disease Recognition'])
 
@@ -27,9 +29,10 @@ if(st.button ('Show image')) :
 if (st.button("Predict")) :
     st.snow()
     st.write('our prediction')
-    result_index =(model_prediction(test_image))
+    result_index, confidence =(model_prediction(test_image))
 
     class_name = ['Potato___Early_blight','Potato___healthy','Potato___Late_blight' ]
     st.success('Model is predicting its a {}'.format(class_name[result_index]))
+    st.info(f"Confidence Score: {confidence:.2%}")
 
 
