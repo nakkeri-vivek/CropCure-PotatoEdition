@@ -50,3 +50,18 @@ The project utilizes a Convolutional Neural Network (CNN) to classify images of 
 
 Contributing
 Contributions are welcome! Feel free to fork this repository and submit pull requests. Please make sure to follow the coding standards and guidelines provided in the repository.
+
+ 
+Step 2 : Click on Browse Filsle
+ 
+Step 3 : Upload the image by clicking Browse files
+ 
+Step 4 : Click on Predict button to predict
+ 
+You will see the prediction
+ 
+![Screenshot 2025-02-13 230913](https://github.com/user-attachments/assets/5f969a6c-23ee-4c4b-aea8-de6c6981b623)
+![Screenshot 2025-02-13 230735](https://github.com/user-attachments/assets/1e5a58ef-4a94-4395-968a-365aec72da0a)
+![Screenshot 2025-02-13 230446](https://github.com/user-attachments/assets/6a5d89fa-0521-4571-afa3-dbecb5005ad2)
+
+
