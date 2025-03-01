@@ -66,6 +66,7 @@ You will see the prediction
 
 ![Screenshot 2025-02-13 230941](https://github.com/user-attachments/assets/fac8f575-6ded-4d1e-9a1f-db9fc742ce9d)
 
+![Screenshot 2025-02-13 231005](https://github.com/user-attachments/assets/3f5bde6c-98bd-4168-b49c-404cce1a226c)
 
 
 
