@@ -1,4 +1,4 @@
-# Potato_Disease_Detection
+# CropCure - Potato Edition
 This project utilizes machine learning and computer vision techniques to detect diseases in potato leaves. The goal is to build a system that can help farmers identify early signs of disease and take necessary actions to prevent crop loss.
 
 Table of Contents
